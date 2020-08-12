@@ -30,13 +30,14 @@ export const HeroScreen = ({history}) => {
         alter_ego,
         first_appearance,
         characters,
+        url,
     } = hero;
 
     return (
         <div className="row mt-5">
             <div className="col-4">
                 <img 
-                    src={`../${heroeId}.jpg`}
+                    src={`${url}`}
                     alt={ superhero }
                     className="img-thumbnail animate__animated animate__fadeInLeft"
                 />
