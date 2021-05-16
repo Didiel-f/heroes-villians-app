@@ -1,0 +1,175 @@
+.good_BG {
+    background-image: url("../../assets/images/jpg/BG_blue_comic.png");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+.bad_BG {
+    background-image: url("../../assets/images/jpg/BG_red_comic.png");
+    background-size: cover;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.card {
+    box-shadow: 4px 4px 5px grey;
+}
+
+.container-img-powerstats {
+    position: relative;
+    height: fit-content;
+}
+
+.container-img-powerstats .card-body {
+    padding-bottom: 5px;
+}
+
+.powerstats-title {
+    padding-right: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+.powerstats {
+    position: absolute;
+    left: 150px;
+    /* top: 480px; */
+    bottom: -155px;
+}
+
+.powerstats-bar-container {
+    padding-left: 0;
+}
+
+
+.powerstats-bar {
+    margin-bottom: 15px;
+    text-align: center;
+    color: black;
+    border-radius: 0px 10px 10px 0px;
+    min-width: 19px;
+
+    animation-duration: 4s;
+    animation-name: slidein;
+}
+
+/* #durability {
+    margin-top: 18px;
+}
+
+#power {
+    margin-top: 17px;
+} */
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 0%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: var(--widthEnd);
+  }
+}
+
+
+
+
+
+
+
+
+.card-header h1 {
+    font-size: 22px ;
+    text-align: center;
+    border-bottom: white !important;
+}
+
+.list-group-item {
+    border-left: 3px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+
+div .card-header {
+    border-bottom: 1px solid white;
+}
+
+img {
+    box-shadow: 4px 4px 5px grey;
+}
+
+button {
+    border: none !important;
+    background-color: white !important;
+    color: black !important;
+
+}
+
+button:hover {
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    transition: ease .4s;
+}
+
+
+.charts-css td {
+    background-color: red;
+}
+
+
+@media (max-width: 768px) {
+    .hero-picture {
+        display:block;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+
+    .container-img-powerstats .card-body {
+        padding-bottom: 6px;
+    }
+    
+    .powerstats-title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .container-img-powerstats .card-body {
+        padding-bottom: 6px;
+    }
+    
+    .powerstats-title p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .container-img-powerstats .card-body {
+        padding-bottom: 6px;
+    }
+    
+    .powerstats-title p {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 410px) { 
+    .powerstats-title p {
+        font-size: 15px;
+        text-align: left;
+    }
+}

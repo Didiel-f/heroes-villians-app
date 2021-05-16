@@ -1,41 +1,40 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
+import './HeroCard.css';
 
 export const HeroCard = ({
     id,
-    superhero,
-    alter_ego,
-    first_appearance,
+    name,
+    biography,
+    // first_appearance,
     characters,
-    url
+    image
 }) => {
 
+    
+    
     return (
-        <div className="card ms-3 animate__animated animate__fadeIn" style={ { maxWidth:540 } } >
-            <div className="row no-gutters">
-                <div className="col-md-4">
-                    <img src={ `${url}` } className="card-img" alt={ superhero } />
-                </div>
-                <div className="col-md-8">
-                    <div className="card-body">
-                        <h5 className="card-title"> {superhero} </h5>
-                        <p className="card-text"> {alter_ego} </p>
-                        {
-                            ( alter_ego !== characters )
-                                && <p className="card-text"> {characters} </p>
-                        }
-
-                        <p className="card-text">
-                            <small className="text-muted"> { first_appearance } </small>
-                        </p>
-
-                        <Link to={`./hero/${id}`}>
-                            Más...
-                        </Link>
-
+        <Link to={`/hero/${id}`} className="my-card text-left">
+            <LazyLoadImage src={ image.url } effect="blur" className="img img-responsive" alt={name}/>
+            <div className="profile-name">{name}</div>
+            <div className="profile-position">{ biography["alter-ego"] }</div>
+            <div className="profile-overview">
+                <div className="profile-overview">
+                    <div className="row">
+                        <div className="col-ms-4">
+                            <h3>{ biography["publisher"]}</h3>
+                            <p>Primera aparición: <br />{ biography["first-appearance"]}</p>
+                            {
+                                (biography["alter-ego"] !== characters)
+                                && <p>{characters}</p>
+                            }
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }

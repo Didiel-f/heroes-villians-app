@@ -1,0 +1,39 @@
+
+
+
+.logo img {
+    height: 50px;
+    box-shadow: none;
+}
+
+.navbar-toggler {
+    background-color: transparent !important;
+    border: 1px solid white !important;
+}
+
+.navbar-toggler:hover { 
+    background-color: black !important;
+    border: none !important;
+}
+
+#navbarNav {
+    /* display: flex !important; */
+
+}
+
+#Nav-content a{
+    /* justify-content: space-between !important; */
+}
+
+.btn-custom {
+    background-color: white;
+    color: black !important;
+}
+
+
+@media (min-width: 1500px){
+    .navbar a {
+        margin-left : 1.1rem;
+        margin-right : 1.1rem;
+    }
+}

@@ -26,9 +26,26 @@ export const LoginScreen = ({history}) => {
             // history.push('/');
         // console.log(history);
         history.replace(lastPath);
-    }
+    };
+
+    handleLogin();
 
     return (
+
+        <>
+        {/* <div className="container-xl mt-5">
+            <form>
+                <div className="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="text" className="form-control" placeholder="Ingrese nombre" />
+                    <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <button type="submit" className="btn btn-primary">Submit</button>
+            </form>
+        </div> */}
+        
+        
+        
         <div className="container mt-5">
             <h1>Login</h1>
             <hr />
@@ -40,5 +57,6 @@ export const LoginScreen = ({history}) => {
                 Login
             </button>
         </div>
+        </>
     )
 }
