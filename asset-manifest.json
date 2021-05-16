@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/heroes-villians-app/static/css/main.4b7b4c49.chunk.css",
-    "main.js": "/heroes-villians-app/static/js/main.94b3f29a.chunk.js",
-    "main.js.map": "/heroes-villians-app/static/js/main.94b3f29a.chunk.js.map",
+    "main.js": "/heroes-villians-app/static/js/main.c408ad7f.chunk.js",
+    "main.js.map": "/heroes-villians-app/static/js/main.c408ad7f.chunk.js.map",
     "runtime-main.js": "/heroes-villians-app/static/js/runtime-main.f5ecda8d.js",
     "runtime-main.js.map": "/heroes-villians-app/static/js/runtime-main.f5ecda8d.js.map",
     "static/css/2.9905d55a.chunk.css": "/heroes-villians-app/static/css/2.9905d55a.chunk.css",
     "static/js/2.8ad76e7e.chunk.js": "/heroes-villians-app/static/js/2.8ad76e7e.chunk.js",
     "static/js/2.8ad76e7e.chunk.js.map": "/heroes-villians-app/static/js/2.8ad76e7e.chunk.js.map",
     "index.html": "/heroes-villians-app/index.html",
-    "precache-manifest.2db9da29cd9378b4d234d4f7143c9b83.js": "/heroes-villians-app/precache-manifest.2db9da29cd9378b4d234d4f7143c9b83.js",
+    "precache-manifest.994171e3339a7926dbff172f32cf9709.js": "/heroes-villians-app/precache-manifest.994171e3339a7926dbff172f32cf9709.js",
     "service-worker.js": "/heroes-villians-app/service-worker.js",
     "static/css/2.9905d55a.chunk.css.map": "/heroes-villians-app/static/css/2.9905d55a.chunk.css.map",
     "static/css/main.4b7b4c49.chunk.css.map": "/heroes-villians-app/static/css/main.4b7b4c49.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.9905d55a.chunk.css",
     "static/js/2.8ad76e7e.chunk.js",
     "static/css/main.4b7b4c49.chunk.css",
-    "static/js/main.94b3f29a.chunk.js"
+    "static/js/main.c408ad7f.chunk.js"
   ]
 }
