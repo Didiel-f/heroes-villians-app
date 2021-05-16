@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca39dd76ee4c03cb6597aa505aac4df4",
+    "revision": "c5c6f90eb7a3fa1ea5e3db9012e0376e",
     "url": "/heroes-villians-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/heroes-villians-app/static/css/2.9905d55a.chunk.css"
   },
   {
-    "revision": "08fa708929de0845463b",
+    "revision": "19b1889ac5d3cc2c604b",
     "url": "/heroes-villians-app/static/css/main.4b7b4c49.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/heroes-villians-app/static/js/2.8ad76e7e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "08fa708929de0845463b",
-    "url": "/heroes-villians-app/static/js/main.94b3f29a.chunk.js"
+    "revision": "19b1889ac5d3cc2c604b",
+    "url": "/heroes-villians-app/static/js/main.c408ad7f.chunk.js"
   },
   {
     "revision": "05046babded629c5fdf5",

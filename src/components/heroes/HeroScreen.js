@@ -165,8 +165,8 @@ export const HeroScreen = ({history}) => {
         // }
     };
 
-
-
+    window.scrollTo(0, 0);
+    // window.scrollTop=0;
 
     return (
         <div className="row mt-5">

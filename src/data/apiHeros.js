@@ -3372,7 +3372,7 @@ export const heroes = [
     {
         "response": "success",
         "id": "70",
-        "name": "Batman (Javier Logercio)",
+        "name": "Batman",
         "powerstats": {
             "intelligence": "100",
             "strength": "26",
@@ -3383,7 +3383,7 @@ export const heroes = [
         },
         "biography": {
             "full-name": "Bruce Wayne",
-            "alter-egos": "No alter egos found.",
+            "alter-egos": "Javier Logercio",
             "aliases": [
                 "Insider",
                 "Matches Malone"
