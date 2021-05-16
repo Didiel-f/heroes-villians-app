@@ -6,7 +6,8 @@
 
 .bad_BG {
     background-image: url("../../assets/images/jpg/BG_red_comic.png");
-    background-size: cover;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
 }
 
 .list-group-item {

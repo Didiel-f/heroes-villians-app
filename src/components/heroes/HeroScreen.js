@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getHeroById } from '../../selectors/getHeroById';
+import  logoCarga  from '../../assets/images/gifs/heroes-villians.gif';
 
 import './HeroScreen.css';
 
@@ -61,7 +62,12 @@ export const HeroScreen = ({history}) => {
     }, [ powerstats, biography.alignment ])
         
     if ( isLoading ) {
-        return <h1>CARGANDO POR FAVOR ESPERE</h1>
+        return (
+            <div className="text-center font-italic">
+                <h1>CARGANDO</h1>
+                <img className="img-fluid" src={ logoCarga } alt="logo de carga"/>
+            </div>
+        );
     }
 
     

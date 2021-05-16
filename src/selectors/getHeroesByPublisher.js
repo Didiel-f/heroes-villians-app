@@ -16,10 +16,6 @@ import { heroes } from "../data/apiHeros";
         
     // }
 
-    // console.log("PROCESO TERMINADO")
-    // console.log(data);
-
-
 
     const validPublishers = ['DC Comics', 'Marvel Comics', 'NBC - Heroes', 'George Lucas', 'Dark Horse Comics', 'Image Comics', 'Star Trek', 'Icon Comics', 'ABC Studios'];
 
